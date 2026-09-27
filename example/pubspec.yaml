@@ -6,12 +6,21 @@ environment:
   flutter: '>=3.27.0'
 
 dependencies:
-  firebase_core: ^4.10.0
-  firebase_messaging: ^16.3.0
+  firebase_core: ^4.14.0
+  firebase_messaging: ^16.6.0
   flutter:
     sdk: flutter
   flutter_local_notifications: ^22.0.1
   http: ^1.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  # `integration_test/report_test_results.dart` names each executed test via
+  # `package:test_api/hooks.dart`; `any` defers to the version flutter_test pins.
+  test_api: any
 
 flutter:
   uses-material-design: true

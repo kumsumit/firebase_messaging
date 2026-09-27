@@ -100,7 +100,7 @@ dependencies {
     )
     implementation("com.google.firebase:firebase-messaging")
     implementation("androidx.localbroadcastmanager:localbroadcastmanager:1.1.0")
-    implementation("androidx.annotation:annotation:1.10.0")
+    implementation("androidx.annotation:annotation:1.11.0")
 }
 
 apply(from = "user-agent.gradle.kts")
